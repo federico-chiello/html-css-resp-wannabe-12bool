@@ -33,19 +33,16 @@
   height: 200px;
 }
 
-/* Section one */
-
-section.row.one .row h1 {
+section.row .row h1 {
   text-align: center;
   font-size: 35px;
   padding-bottom: 20px;
 }
 
-section.row.one h2 {
+section.row h2 {
   font-size: 20px;
   padding: 10px 0;
 }
-/* / section one */
 
 /* Section two */
 .grey {
