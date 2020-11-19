@@ -13,8 +13,12 @@
   float: left;
 }
 
-.m-5 {
-  margin: 5px;
+.m-20 {
+  margin: 20px;
+}
+
+.m-50 {
+  margin: 50px;
 }
 /* / regole generali */
 
