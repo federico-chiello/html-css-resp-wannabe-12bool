@@ -46,3 +46,8 @@ section.row.one h2 {
   padding: 10px 0;
 }
 /* / section one */
+
+/* Section two */
+.grey {
+  background-color: #f9f9f9;
+}
