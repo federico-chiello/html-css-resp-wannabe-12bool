@@ -1,0 +1,26 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Class debug */
+.debug .row {
+  height: 250px;
+}
+.debug .row [class*="col-"] {
+  background-color: green;
+  border: 1px solid black;
+  height: 100%;
+}
+.debug .row .row [class*="col-"] {
+  background-color: green;
+}
+/* / class debug */
+
+.width-100 {
+  width: 100% ;
+}
+
+[class*="col-"] {
+  padding: 5px;
+}
