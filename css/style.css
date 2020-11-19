@@ -5,7 +5,7 @@
 
 /* Class debug */
 .debug .row {
-  height: 250px;
+  height: 200px;
 }
 .debug .row [class*="col-"] {
   background-color: green;
@@ -23,4 +23,8 @@
 
 [class*="col-"] {
   padding: 5px;
+}
+
+.row .row h1 {
+  text-align: center;
 }
