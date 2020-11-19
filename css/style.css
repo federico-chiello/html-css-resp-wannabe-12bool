@@ -1,6 +1,6 @@
 .container {
   max-width: 992px;
-  margin: 100px auto 0;
+  margin: 0 auto;
 }
 
 /* Class debug */
@@ -29,42 +29,50 @@
   padding: 5px;
 }
 
-.row {
+.lezioni, .step, .why {
   text-align: center;
 }
 
-.row img {
-  height: 150px;
+img {
+  height: 200px;
 }
 
-section.row.one, .row.two {
+.lezioni {
+  margin-top: 100px;
+}
+
+.lezioni, .step {
   margin-bottom: 100px;
 }
 
-section.row .row h1 {
+.row h1 {
   text-align: center;
   font-size: 35px;
   padding-bottom: 20px;
 }
 
-section.row h2 {
+.row h2 {
   font-size: 20px;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .grey {
   background-color: #f9f9f9;
 }
 
-section.row.three img {
+.why img {
   height: 250px;
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
 }
 
-section.row.three h1 {
+.why h1 {
   padding-bottom: 50px;
+}
+
+.why p {
+  padding: 20px 0px 0px;
 }
 
 hr {
